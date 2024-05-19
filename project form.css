@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.input-box1 {
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: rgb(185, 184, 184);
+    width: auto;
+    padding: 30px 40px;
+    border: 2px solid rgba(225, 225, 225, .2);
+    backdrop-filter: blur(20px);
+
+}
+
+.wrapper .btn1 {
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.wrapper .btn {
+    background-color: lightgreen;
+}
+
+.wrapper h1 {
+    text-align: center;
+
+}
+
+.wrapper p {
+    text-align: center;
+}

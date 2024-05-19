@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="project form.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="form.php">
+            <u>
+                <h1>Student Registration Form</h1>
+            </u>
+            <b>
+                <p>Fill out the form carefully for Registration</p>
+            </b>
+            <div class="input-box1">
+                <label for="">Student Name</label><br>
+                <label for="" class="box-top"></label>
+                <input type="text" placeholder="First Name" required>
+                <label for="" class="box-top1"></label>
+                <input type="text" placeholder="Middle Name" required>
+                <label for="" class="box-top2"></label>
+                <input type="text" placeholder="Last Name" required>
+                <label for="" class="box-top3"></label>
+
+            </div>
+            <br>
+            <div class="input-box2">
+                <label for="">Birth Date</label><br>
+                <input type="date" id="date" name="birth date">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label
+                    for="">Gender</label>
+                <select name="Gender" id="Gender">
+                    <option value="no-gender">please select</option>
+                    <option value="Male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <br>
+            <div class="input-box3">
+                <label for="">Address</label><br>
+                <input type="text" placeholder="street address">
+                <input type="text" placeholder="second address(optional)">
+                <br>
+                <br><label for="">city</label><br>
+                <input type="text" placeholder="">
+                <br><label for="">state/province</label><br>
+                <input type="text" placeholder="">
+                <br><label for="">postal/zipcode</label><br>
+                <input type="text" placeholder="">
+            </div>
+            <br>
+            <div class="input-box4">
+                <label for="">Student E-mail</label><br>
+                <input type="text" placeholder="abc@example.com">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="">Mobile Number</label>
+                <input type="text" placeholder="(+92) 00000000">
+            </div>
+            <br>
+            <div class="input-box5">
+                <label for="">Phone Number</label><br>
+                <input type="text" placeholder="(042) 0000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="">Work Number</label>
+                <input type="text" placeholder="(042) 00000000">
+            </div>
+            <br>
+            <div class="input-box6">
+                <label for="">Company</label><br>
+                <input type="text" placeholder="">
+            </div>
+            <br>
+            <div class="input-box7">
+                <label for="">Courses</label>
+                <select name="Courses" id="courses">
+                    <option value="" disabled selected>please select</option>
+                    <option value="Math">Math</option>
+                    <option value="English">English</option>
+                    <option value="Urdu">Urdu</option>
+                </select>
+            </div>
+            <br>
+            <div class="input-box8">
+                <label for="">Additional Comments</label><br>
+                <textarea name="address" id="address" cols="65" rows="7"></textarea>
+            </div>
+            <br>
+            <button type="submit" class="btn">Submit
+                Application</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="clear" class="btn1">Clear Fields</button>
+        </form>
+    </div>
+</body>
+
+</html>
